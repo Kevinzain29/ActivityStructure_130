@@ -35,6 +35,15 @@ int main() {
         cin.ignore(1, '\n');
     }
 
+    for (int i = 0; i < 3; i++)
+    {
+        cout << "\n\nNIM = " << mhs[i].NIM;
+        cout << "\nnama = " << mhs[i].nama;
+        cout << "\ndesa = " << mhs[i].alamat.desa;
+        cout << "\nkota = " << mhs[i].alamat.kota;
+        cout << "\numur = " << mhs[i].umur;
+    }
+
 }
 
 
