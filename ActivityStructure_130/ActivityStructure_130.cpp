@@ -18,7 +18,7 @@ int main() {
     mhs1.alamat = "Wonosobo";
     mhs1.umur = "20";
 
-    cout << "Masukan NNIM :";
+    cout << "Masukan NIM :";
     cin >> mhs2.NIM;
     cout << "Masukan Nama :";
     cin >> mhs2.nama;
