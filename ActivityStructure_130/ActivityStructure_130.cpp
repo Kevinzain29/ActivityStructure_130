@@ -11,7 +11,7 @@ struct mahasiswa
 };
 
 int main() {
-    mahasiswa mhs1; mhs2;
+    mahasiswa mhs1, mhs2;
 
     mhs1.NIM = "20220140130";
     mhs1.nama = "Ahmad Kevin Zain";
@@ -21,11 +21,22 @@ int main() {
     cout << "Masukan NNIM :";
     cin >> mhs2.NIM;
     cout << "Masukan Nama :";
-    cin >> mhs2.Nama;
+    cin >> mhs2.nama;
     cout << "Masukan Alamat :";
     cin >> mhs2.alamat;
     cout << "Masukan Umur :";
     cin >> mhs2.umur;
+
+    cout << "\nNIM = " << mhs1.NIM;
+    cout << "\nnama = " << mhs1.nama;
+    cout << "\nalamat = " << mhs1.alamat;
+    cout << "\numur = " << mhs1.umur;
+
+    cout << "\n\nNIM = " << mhs2.NIM;
+    cout << "\nnama = " << mhs2.nama;
+    cout << "\nalamat = " << mhs2.alamat;
+    cout << "\numur = " << mhs2.umur;
+
 
 }
 
